@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.navBar {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 74px;
+    position: fixed;
+    width: 100%;
+}
+
+.navBar nav {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 15em;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    text-decoration: none;
+    color: #1d2434;
+    align-items: center;
+}
+
+.logo a h1 {
+    font-size: 1.5em;
+}
+
+.logo a img {
+    width: 50px;
+    margin-right: 5px;
+    padding-bottom: 12px;
+}
+
+.sideNav ul {
+    list-style: none;
+    display: flex;
+}
+
+.sideNav ul li a {
+    text-decoration: none;
+    color: #1d2434;
+    font-weight: 600;
+}
+
+.sideNav ul li {
+    padding-left: 2em;
+    color: #fff;
+}
+
+.sideNav ul li a span {
+    background-color: #ed3d0c;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 66px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.hero-section .hero-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 15em;
+    padding-right: 7.5em;
+    align-items: center;
+
+}
+
+.hero-section .hero-container img {
+    width: 1500px;
+}
+
+.judul{
+    color: #1d2434;
+}
+
+.judul h2 {
+    font-size: 56px;
+}
+
+.judul p {
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+.judul .btn {
+    background-color: #ed3d0c;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.judul a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.about-us {
+    background-color: #f8fafc;
+    padding: 5em 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1d2434;
+}
+
+.about-us h2 {
+    padding-bottom: 25px;
+    font-size: 2em;
+}
+
+.about-us p {
+    text-align: justify;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+.contact-container {
+    padding: 5em 0;
+    color: #1d2434;
+    width: 750px;
+}
+
+.contact-container h2 {
+    padding-bottom: 25px;
+    font-size: 2em;
+}
+
+input, textarea {
+    flex: 1;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: none;
+    width: 100%;
+    background-color: #e2e8f0;
+    border-radius: 6px;
+}
+
+label {
+    font-size: 1em;
+    color: #1d2434;
+    font-weight: 500;
+}
+
+button {
+    background-color: #ed3d0c;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: 'Poppins';
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: #ed3d0c;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
